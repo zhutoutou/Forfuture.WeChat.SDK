@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Forfuture.WeChat.Core.Cache
+namespace Forfuture.WeChat.Cache
 {
     /// <summary>
     /// MsCache实体装饰器

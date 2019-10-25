@@ -1,4 +1,6 @@
-﻿namespace Forfuture.WeChat.Client.Message.Base
+﻿using Newtonsoft.Json;
+
+namespace Forfuture.WeChat.Client.Message.Base
 {
     public class WeChatResponse
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Forfuture.WeChat.Client.Extensions
+namespace Forfuture.WeChat.Extensions
 {
     public static class CollectionExtension
     {

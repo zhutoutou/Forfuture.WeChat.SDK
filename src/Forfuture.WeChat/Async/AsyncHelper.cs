@@ -3,8 +3,9 @@ using System.Collections.Concurrent;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
+using Nito.AsyncEx;
 
-namespace Forfuture.WeChat.Core.Async
+namespace Forfuture.WeChat.Async
 {
     public static class AsyncHelper
     {

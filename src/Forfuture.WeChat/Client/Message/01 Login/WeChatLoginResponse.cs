@@ -1,4 +1,5 @@
 ﻿using Forfuture.WeChat.Client.Message.Base;
+using Newtonsoft.Json;
 
 namespace Forfuture.WeChat.Client.Message._01_Login
 {

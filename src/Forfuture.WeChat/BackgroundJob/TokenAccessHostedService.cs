@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Forfuture.WeChat.Cache;
 using Forfuture.WeChat.Client;
 using Forfuture.WeChat.Client.Message.RefreshToken;
 using Forfuture.WeChat.Configuration;
-using Forfuture.WeChat.Core.Cache;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Forfuture.WeChat
+namespace Forfuture.WeChat.BackgroundJob
 {
     /// <summary>
     /// Token刷新后台服务

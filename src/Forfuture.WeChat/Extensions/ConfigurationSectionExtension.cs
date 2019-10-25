@@ -1,4 +1,8 @@
-﻿namespace Forfuture.WeChat.Client.Extensions
+﻿using System.Linq;
+using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json.Linq;
+
+namespace Forfuture.WeChat.Extensions
 {
     public static class ConfigurationSectionExtension
     {

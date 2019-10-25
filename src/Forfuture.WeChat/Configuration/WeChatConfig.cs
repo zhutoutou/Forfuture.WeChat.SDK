@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Reflection;
+using Forfuture.WeChat.Cache;
 using Forfuture.WeChat.Client.Message.Base.Attributes;
 using Forfuture.WeChat.Client.Message.Base.Enum;
-using Forfuture.WeChat.Core.Cache;
+using Forfuture.WeChat.Extensions;
+using Newtonsoft.Json;
 
 namespace Forfuture.WeChat.Configuration
 {
@@ -12,7 +15,7 @@ namespace Forfuture.WeChat.Configuration
         /// <summary>
         /// 属性注入
         /// </summary>
-        internal IWeChatCache CacheManager { get; set; }
+        public IWeChatCache CacheManager { get; set; }
 
         /// <summary>
         /// 

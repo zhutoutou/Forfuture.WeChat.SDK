@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Forfuture.WeChat.Client.Message.Base;
 using Forfuture.WeChat.Client.Message.Base.Enum;
 
-namespace Forfuture.WeChat.Client.Extensions
+namespace Forfuture.WeChat.Extensions
 {
     public static class HttpClientWeChatRequestExtension
     {

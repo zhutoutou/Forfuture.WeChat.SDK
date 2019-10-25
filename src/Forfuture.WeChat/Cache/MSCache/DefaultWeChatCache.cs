@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Forfuture.WeChat.Core.Async;
+using Forfuture.WeChat.Async;
+using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Logging;
 
-namespace Forfuture.WeChat.Core.Cache.MSCache
+namespace Forfuture.WeChat.Cache.MSCache
 {
     public class DefaultWeChatCache : IWeChatCache
     {

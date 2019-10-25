@@ -1,9 +1,10 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Net.Http;
 using System.Reflection;
-using Forfuture.WeChat.Client.Extensions;
 using Forfuture.WeChat.Client.Message.Base.Attributes;
+using Forfuture.WeChat.Extensions;
 
 namespace Forfuture.WeChat.Client.Message.Base
 {

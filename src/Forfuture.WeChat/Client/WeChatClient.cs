@@ -3,12 +3,14 @@ using System.Net.Http;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
-using Forfuture.WeChat.Client.Extensions;
+using AutoMapper;
 using Forfuture.WeChat.Client.Message._01_Login;
 using Forfuture.WeChat.Client.Message.Base;
 using Forfuture.WeChat.Client.Message.ImgSec;
 using Forfuture.WeChat.Client.Message.RefreshToken;
 using Forfuture.WeChat.Configuration;
+using Forfuture.WeChat.Extensions;
+using Microsoft.Extensions.Logging;
 
 namespace Forfuture.WeChat.Client
 {

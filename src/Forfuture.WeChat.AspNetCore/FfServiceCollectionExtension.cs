@@ -1,5 +1,11 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Net.Http;
+using Forfuture.WeChat.BackgroundJob;
+using Forfuture.WeChat.Cache;
+using Forfuture.WeChat.Client;
+using Forfuture.WeChat.Configuration;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Forfuture.WeChat.AspNetCore

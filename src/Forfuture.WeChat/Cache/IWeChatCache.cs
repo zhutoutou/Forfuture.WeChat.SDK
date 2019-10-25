@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Forfuture.WeChat.Core.Cache
+namespace Forfuture.WeChat.Cache
 {
     /// <summary>
     /// 微信模块内置缓存接口

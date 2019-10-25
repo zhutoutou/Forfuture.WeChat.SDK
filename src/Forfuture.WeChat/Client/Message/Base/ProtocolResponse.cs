@@ -2,8 +2,9 @@ using System;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Forfuture.WeChat.Client.Extensions;
 using Forfuture.WeChat.Client.Message.Base.Enum;
+using Forfuture.WeChat.Extensions;
+using Newtonsoft.Json;
 
 namespace Forfuture.WeChat.Client.Message.Base
 {

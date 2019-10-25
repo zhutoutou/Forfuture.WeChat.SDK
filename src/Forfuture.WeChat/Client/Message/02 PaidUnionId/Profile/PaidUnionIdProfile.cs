@@ -1,4 +1,5 @@
-﻿using Forfuture.WeChat.Configuration;
+﻿using AutoMapper;
+using Forfuture.WeChat.Configuration;
 
 namespace Forfuture.WeChat.Client.Message._02_PaidUnionId.Profile
 {

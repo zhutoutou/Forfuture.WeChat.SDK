@@ -1,6 +1,7 @@
 ﻿using System;
+using AutoMapper;
 
-namespace Forfuture.WeChat.Client.Extensions
+namespace Forfuture.WeChat.Extensions
 {
     public static class AutoMapperExtension
     {

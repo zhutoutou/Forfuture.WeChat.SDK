@@ -3,8 +3,9 @@
 
 using System;
 using System.Collections.Generic;
+using Newtonsoft.Json.Linq;
 
-namespace Forfuture.WeChat.Client.Extensions
+namespace Forfuture.WeChat.Extensions
 {
     /// <summary>
     /// Extensions for JObject

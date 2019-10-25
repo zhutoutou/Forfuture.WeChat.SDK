@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Net.Http;
+using Forfuture.WeChat.Cache.MSCache;
 using Forfuture.WeChat.Client.Message.Base.Enum;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Forfuture.WeChat.Configuration
 {
@@ -9,7 +12,7 @@ namespace Forfuture.WeChat.Configuration
         public WeChatOptions()
         {
             RefreshTimeSpan = WeChatConfigurationConstants.DefaultRefreshTimeSpan;
-            UseCache = WeChatConstants.UseMSCache;
+            UseCache = MSCacheServiceCollectionExtension.UseMSCache;
         }
         /// <summary>
         /// 小程序信息配置构造函数

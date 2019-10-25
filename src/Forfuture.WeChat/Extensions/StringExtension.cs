@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Forfuture.WeChat.Client.Extensions
+namespace Forfuture.WeChat.Extensions
 {
     public static class StringExtension
     {

@@ -1,4 +1,5 @@
-﻿using System.Net.Http;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Net.Http;
 using Forfuture.WeChat.Client.Message.Base;
 using Forfuture.WeChat.Client.Message.Base.Attributes;
 

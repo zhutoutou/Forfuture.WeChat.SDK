@@ -1,18 +1,19 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Forfuture.WeChat.Core.Cache;
+using Forfuture.WeChat.Async;
+using Forfuture.WeChat.Cache;
 using Microsoft.Extensions.Logging;
 using StackExchange.Redis;
 using StackExchange.Redis.Extensions.Core.Abstractions;
 
-namespace Forfuture.WeChat.Cache.RedisCache
+namespace Forfuture.WeChat.RedisCache
 {
     public class WeChatRedisCache : IWeChatCache
     {
         private readonly RedisCacheClient _client;
         private readonly ILogger _logger;
-        private TimeSpan _retryInterval = TimeSpan.FromMilliseconds(200);
+        private readonly TimeSpan _retryInterval = TimeSpan.FromMilliseconds(200);
 
         public WeChatRedisCache(
             RedisCacheClient client,
@@ -87,7 +88,7 @@ namespace Forfuture.WeChat.Cache.RedisCache
         {
             if (lockTimeSpan == default)
             {
-                lockTimeSpan = TimeSpan.FromMilliseconds(WeChatCacheConstants.DefaultLockTimeSpan);
+                lockTimeSpan = TimeSpan.FromMilliseconds(WeChatRedisConstants.DefaultLockTimeSpan);
             }
             var count = 0;
             var tryMaxCount = (int)(lockTimeSpan.TotalMilliseconds / _retryInterval.TotalMilliseconds);
